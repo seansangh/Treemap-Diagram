@@ -1,0 +1,45 @@
+body{
+  text-align: center; 
+  font-family: arial;
+}
+
+ul li{
+  list-style: none;
+  display: inline;
+}
+
+ul li a{
+  text-decoration: none; 
+  color: #0888d6;
+}
+
+ul li a:hover{
+  cursor:pointer;
+}
+
+h1{
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+
+h2{
+  font-size: 16px; 
+  font-family: arial; 
+  font-weight: normal;
+}
+
+#v1,#k1{
+  display:none;
+}
+
+#tooltip {	
+  position: absolute;			
+  min-width: 100px;					
+  padding: 5px;				
+  font-size: 13px;
+  font-family: calibri;
+  color: white;
+  background: black;	
+  border-radius: 5px;		
+  text-align: center;
+}
